@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_my"
+    tools:context="epam.androidlab.com.hometask3.MyFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15">
+
+            <Button
+                android:text="@string/btnColor1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnColor1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15">
+
+            <Button
+                android:text="@string/btnColor2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnColor2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15">
+
+            <Button
+                android:text="@string/btnColor3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnColor3" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
